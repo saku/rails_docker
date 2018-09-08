@@ -1,3 +1,17 @@
+# How to use
+
+```
+$ docker build -t rails:sample .
+$ docker run -d -p 3000:3000 rails:sample
+```
+
+And show it at your browser!
+
+```
+http://localhost:3000/ (If you use docker for Mac/Win)
+http://192.168.99.100:3000/ (If you use docker-machine)
+```
+
 # README
 
 This README would normally document whatever steps are necessary to get the
